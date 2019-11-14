@@ -47,5 +47,5 @@
    ##
    ## Post Installation
    
-   After the installation as stated before is completed, you can clone the repository by using  "git clone https://github.com/sbanjara/student-registration-system" command in the command prompt. Once the source file is cloned in your workstation, you can create a netbeans project with existing sources (the source file). Finally, you can build it and run!!!
+   After the installation as stated above is completed, you can clone the repository by using  "git clone https://github.com/sbanjara/student-registration-system" command in the command prompt. Once the source file is cloned in your workstation, you can create a netbeans project with existing sources (the source file that is cloned). Finally, you can build it and run!!!
       
