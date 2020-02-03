@@ -1,16 +1,16 @@
 # Student Registration System!!
 
 ## Description
-   This program is an implementation of Student Registration System using Java.
+   This program is an implementation of a Student Registration System using Java.
    This program allows,
    
    1. Looking up an offering for a particular course
    2. Registering a course 
    3. Viewing a trialschedule/registered courses
    
-   It has an input file which has the course offering information for a particular semester. This program reads the input file, gets the    course information line by line, and adds it to a Course object. The Course object is an abstract class which holds general information    about a course, namely course name, crn number, course number, section, credit hours, instructor, and class type (Traditional or          Online). Also there are TraditionalCourse and OnlineCourse classes which extends the Course class. TraditionalCourse has more fields      like meeting location, starting time, and stopping time than the OnlineCourse. It is implemented using Model-View-Controller pattern.
+   It has an input file (csv file) which has the course offering information for a particular semester. This program reads the input file, gets the course information line by line, and adds it to a Course object. The Course object is an abstract class which holds general information about a course, namely course name, crn number, course number, section, credit hours, instructor, and class type (Traditional or Online). Also there are TraditionalCourse and OnlineCourse classes which extend the Course class. TraditionalCourse has more fields like meeting location, starting time, and stopping time than the OnlineCourse. It is implemented using a Model-View-Controller pattern.
    
-   In the coming days, I will be transforming it to a web application. I will be using Java (java server page, java servlet, java beans) to handle server-side operations and HTML, CSS, JavaScript, and jQuery to handle client-side operations.
+   In the coming days, I will be transforming it to a web application.
 ##   
 ## How to Run this Program
    It is written in Java 8 and is intended to run via Netbeans. If you don't have Java 8 and/or Netbeans installed, you can install those by following instructions below,
@@ -47,5 +47,9 @@
    ##
    ## Post Installation
    
-   After the installation as stated above is completed, you can clone the repository by using  "git clone https://github.com/sbanjara/student-registration-system" command in the command prompt. Once the source file is cloned in your workstation, you can create a netbeans project with existing sources (the source file that is cloned). Finally, you can build it and run!!!
+   After the installation as stated above is completed, you can clone the repository by using the command
+   ###
+   **"git clone https://github.com/sbanjara/student-registration-system"** in the command prompt
+   ###
+   Once the source file is cloned in your workstation, you can create a netbeans project with existing sources (the source file that is cloned). Finally, you can build it and run!!!
       
